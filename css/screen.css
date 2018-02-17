@@ -202,12 +202,12 @@ body {
   margin-left: 1em; /* 5px; */
   margin-right: 1em; /* 5px; */
   padding: 1em; /* 5px; */
-  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Molengo', 'Average', sans-serif;
   background-color: #E8E8E8;
 }
 
 h1 {
-  font-family: 'Play', Arial, sans-serif;
+  font-family: 'Marcellus SC', Arial, sans-serif;
 }
 
 p {
@@ -224,23 +224,23 @@ label {
 input[type=text] {
   border: none;
   background-color: #CDCDCD;
-  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Molengo', 'Average', sans-serif;
 }
 
 input[type=email] {
   border: none;
   background-color: #CDCDCD;
-  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Molengo', 'Average', sans-serif;
 }
 
 select {
   border: none;
   background-color: #CDCDCD;
-  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Molengo', 'Average', sans-serif;
 }
 
 input[type=submit] {
-  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Molengo', 'Average', sans-serif;
   margin-top: 0.648em; /* 10px; */
   background-color: #CDCDCD;
 }

@@ -199,28 +199,29 @@ html {
 }
 
 body {
-  margin-left: 1em; /* 5px; */
-  margin-right: 1em; /* 5px; */
-  padding: 1em; /* 5px; */
+  margin-left: 1em; /* 22px */
+  margin-right: 1em; /* 22px */
+  padding: 1em; /* 22px */
   font-family: 'Molengo', 'Average', sans-serif;
   background-color: #F0EAEA;
 }
 
 h1 {
-  font-size: 1.667em; /* 8.335px */
+  font-size: 1.667em; /* 36.674px */
+  line-height: 0.825em; /* 13.197px */
   font-family: 'Marcellus SC', Arial, sans-serif;
 }
 
 #logo {
   width: 100%;
-  height: 6.5em; /* 37px; */
+  height: 4.632em; /* 101.913px */
 }
 
 p {
-  margin-top: 0.36em; /* 1.799px; */
-  margin-bottom: 0.36em; /* 1.799px; */
-  padding-top: 1em; /* 5px; */
-  padding-bottom: 1em; /* 5px; */
+  margin-top: 0.6em; /* 13.197px */
+  margin-bottom: 0.6em; /* 13.197px */
+  padding-top: 0.129em; /* 2.849px */
+  padding-bottom: 0.129em; /* 2.849px */
 }
 
 label {
@@ -247,7 +248,7 @@ select {
 
 input[type=submit] {
   font-family: 'Molengo', 'Average', sans-serif;
-  margin-top: 0.648em; /* 10px; */
+  margin-top: 1em; /* 22px */
   background-color: #D4B6B6;
 }
 
@@ -258,7 +259,7 @@ input[type=radio] {
 /* Mobile first queries */
 @media screen and (min-width: 480px) {
   form {
-    margin: 0 0 1em 0; /* 5px */
+    margin: 0 0 1em 0; /* 22px */
     width: 100%;
   }
   form > label,

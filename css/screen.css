@@ -226,6 +226,7 @@ p {
 
 label {
   display: block;
+  padding-top: 0.297em; /* 4.749px */
 }
 
 input[type=text] {
@@ -250,6 +251,7 @@ input[type=submit] {
   font-family: 'Molengo', 'Average', sans-serif;
   margin-top: 1em; /* 22px */
   background-color: #D4B6B6;
+  line-height: 0.825em; /* 13.197px */
 }
 
 input[type=radio] {

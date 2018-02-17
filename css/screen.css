@@ -203,7 +203,7 @@ body {
   margin-right: 1em; /* 5px; */
   padding: 1em; /* 5px; */
   font-family: 'Molengo', 'Average', sans-serif;
-  background-color: #E8E8E8;
+  background-color: #F0EAEA;
 }
 
 h1 {
@@ -223,26 +223,30 @@ label {
 
 input[type=text] {
   border: none;
-  background-color: #CDCDCD;
+  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
 }
 
 input[type=email] {
   border: none;
-  background-color: #CDCDCD;
+  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
 }
 
 select {
   border: none;
-  background-color: #CDCDCD;
+  background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
 }
 
 input[type=submit] {
   font-family: 'Molengo', 'Average', sans-serif;
   margin-top: 0.648em; /* 10px; */
-  background-color: #CDCDCD;
+  background-color: #D4B6B6;
+}
+
+input[type=radio] {
+  background-color: #D4B6B6;
 }
 
 /* Mobile first queries */

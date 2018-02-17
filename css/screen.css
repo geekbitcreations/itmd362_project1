@@ -196,6 +196,8 @@ html {
   line-height: 1.2em; /* 26px / ~ 120% */
   padding: 1.2em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  border: solid #F6A740;
+  border-width: thick;
 }
 
 body {

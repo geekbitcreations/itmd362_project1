@@ -221,7 +221,19 @@ label {
   display: block;
 }
 
+input[type=text] {
+  border: none;
+  background-color: #CDCDCD;
+  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+}
+
 input[type=email] {
+  border: none;
+  background-color: #CDCDCD;
+  font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;
+}
+
+select {
   border: none;
   background-color: #CDCDCD;
   font-family: 'Rajdhani', 'Barlow Semi Condensed', sans-serif;

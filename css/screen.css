@@ -196,8 +196,8 @@ html {
   line-height: 1.2em; /* 26px / ~ 120% */
   padding: 1.2em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  border: solid #F6A740;
-  border-width: thick;
+  /*border: solid #F6A740;
+  border-width: thick;*/
 }
 
 body {
@@ -284,7 +284,6 @@ input[type=radio] {
 
 @media screen and (min-width: 768px) {
   html {
-    border-width: thick;
     box-sizing: content-box;
   }
   
@@ -319,7 +318,6 @@ input[type=radio] {
 
 @media screen and (min-width: 1200px) {
   html {
-    border-width: thick;
     box-sizing: content-box;
   }
   

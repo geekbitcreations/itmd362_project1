@@ -284,7 +284,6 @@ input[type=radio] {
 
 @media screen and (min-width: 768px) {
   html {
-    width: 85%;
     border-width: thick;
     box-sizing: content-box;
   }
@@ -320,7 +319,6 @@ input[type=radio] {
 
 @media screen and (min-width: 1200px) {
   html {
-    width: 95%;
     border-width: thick;
     box-sizing: content-box;
   }

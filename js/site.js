@@ -17,6 +17,6 @@ function confirm(event){
         }
   }
   
-  alert("Thank you for signing up for our newsletter!");
+  alert("Thank you " + fname + " " + lname + "for signing up for our newsletter!");
   return true;
 });

@@ -46,12 +46,12 @@ function confirm(event){
   for(i = 0; i < document.getElementsByTagName("input").length; i++)
   {
     if(document.getElementsByTagName("input").item(i).value === "" ||
-        (document.getElementsByTagName("input").item(i).type === "radio" && document.getElementsByTagName("input").item(i).checked===false))
+        (document.getElementsByTagName("input").item(i).type === "radio"))
         {
           return false;
         }
   }
-  alert("Thank you for signing up for a newsletter!");
+  alert("Thank you for signing up for our newsletter!");
   return true;
-}
+});
 

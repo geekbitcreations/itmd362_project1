@@ -210,7 +210,7 @@ body {
 
 h1 {
   font-size: 1.667em; /* 36.674px */
-  line-height: 0.825em; /* 13.197px */
+  line-height: 1.2em; /* 26px */
   font-family: 'Marcellus SC', Arial, sans-serif;
 }
 
@@ -227,7 +227,7 @@ p {
 }
 
 label {
-  display: block;
+  display: inline-block;
   padding-top: 0.297em; /* 4.749px */
 }
 
@@ -235,18 +235,18 @@ input[type=text] {
   border: none;
   background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
+  padding-left: 0.297em; /* 4.749px */
+  margin-bottom: 0.495em; /* 7.917px */
+  width: 45%;
 }
 
 input[type=email] {
   border: none;
   background-color: #D4B6B6;
   font-family: 'Molengo', 'Average', sans-serif;
-}
-
-select {
-  border: none;
-  background-color: #D4B6B6;
-  font-family: 'Molengo', 'Average', sans-serif;
+  padding-left: 0.297em; /* 4.749px */
+  margin-bottom: 0.495em; /* 7.917px */
+  width: 50%;
 }
 
 input[type=submit] {
@@ -257,17 +257,17 @@ input[type=submit] {
 
 input[type=radio] {
   background-color: #D4B6B6;
+  width: 10%;
+  height: 0.825em;
 }
 
 /* Mobile first queries */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 360px) {
   form {
-    margin: 0 0 1em 0; /* 22px */
     width: 100%;
   }
   
-  form > label,
-  legend {
+  form > label {
 	  width: 100%;
     float: none;
   }
@@ -277,14 +277,52 @@ input[type=radio] {
     float: none;
   }
   
+  h1 {
+    font-size: 1.375em; /* 22px */
+  }
+  
+  label {
+    display: block;
+  }
+  
   input[type=email] {
-    width: 67%; 
+    width: 100%; 
+  }
+  
+  input[type=text] {
+    width: 100%;
+  }
+  
+  input[type=radio] {
+    width: 15%; 
+  }
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    margin: 0 0 1em 0; /* 22px */
+    width: 100%;
+  }
+  
+  form > label {
+	  width: 100%;
+    float: none;
+  }
+ 
+  form > fieldset {
+    width: 99%;
+    float: none;
+  }
+  
+  input[type=radio] {
+    width: 9%; 
   }
 }
 
 @media screen and (min-width: 768px) {
   html {
     box-sizing: content-box;
+    font-size: 2em; /* 31px */
   }
   
   form {
@@ -293,8 +331,7 @@ input[type=radio] {
     width: 100%;
   }
   
-  form > label,
-	legend {
+  form > label {
   	text-align: right;
     width: 100%
   }
@@ -303,49 +340,63 @@ input[type=radio] {
     width: 75%;
   }
   
-  /*#logo {
-    width: 45%;
-  }*/
+  input[type=radio] {
+    width: 9%; 
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    box-sizing: content-box;
+    font-size: 2.8em; /* 38px */
+  }
+  
+  form {
+    margin-left: 0.825em; /* 13.197px */
+    margin-right: 3.821em; /* 61.136px */
+    width: 100%;
+  }
+  
+  form > label {
+  	text-align: right;
+    width: 100%
+  }
+  
+  p {
+    width: 100%;
+  }
   
   input[type=email] {
-    width: 80%; 
+    width: 60%; 
   }
   
   input[type=text] {
-    width: 80%;
+    width: 60%;
+  }
+  
+  input[type=radio] {
+    width: 10%; 
   }
 }
 
 @media screen and (min-width: 1200px) {
   html {
     box-sizing: content-box;
+    font-size: 2.292em; /* 36.674px */
   }
   
-  form {
-    margin-left: 10.618em; /* 169.889px */
-    margin-right: 6.37em; /* 101.913px */
-    width: 100%;
+  body {
+    padding-left: 15%;
+    padding-right: 15%;
   }
   
   form > label {
   	text-align: right;
-    width: 85%;
+    /*width: 85%;*/
   }
   
   p {
-    width: 60%;
-  }
-  
-  /*#logo {
-    width: 30%;
-  }*/
-  
-  input[type=email] {
-    width: 50%; 
-  }
-  
-  input[type=text] {
-    width: 50%;
+    width: 100%;
   }
 }
 

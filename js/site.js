@@ -22,7 +22,7 @@ function confirm(event){
           lname = document.getElementById("lname").value;
           
           alert("Thank you " + fname + " " + lname + " for signing up for our newsletter!\n"
-          + "We look forward to seeing you at The Gathering!");
+                + "We look forward to seeing you at The Gathering!");
           return true;
         }
   }

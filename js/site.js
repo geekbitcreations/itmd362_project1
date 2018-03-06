@@ -14,9 +14,9 @@ function confirm(event){
         (document.getElementsByTagName("input").item(i).checked === false))
         {
           return false;
-        }
+        }    
   }
   
-  alert("Thank you " + fname + " " + lname + "for signing up for our newsletter!");
+  alert("Thank you " + fname + " " + lname + " for signing up for our newsletter!");
   return true;
 });
